@@ -7,7 +7,7 @@ import java.util.Vector;
 
 public class Thesaurus implements IThesaurus {
 
-    HashMap<Integer, Entry> records;
+    HashMap<Integer, Entry> records; //Keeps track of all entries, using a hash map for fast access
 
     public Thesaurus() {
         records = new HashMap<>();
